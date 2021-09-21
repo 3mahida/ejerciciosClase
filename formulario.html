@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h2>Ejemplo Formulario</h2>
+    <section>
+        <article>
+            <form action="">
+                <input type="hidden" name="" value="12345">
+                <fieldset>
+                <legend>
+                    Primera parte
+                </legend>
+
+                <label for="nombre"> Nombre</label>
+                <br>
+                <input type="text">
+                <br>
+                <label for="edad"> Edad</label>
+                <br>
+                <input type="text" name="edad"/>
+                <br>
+                <label for="tiempo_en_la_Empresa"> Tiempo en la Empresa</label>
+                <br>
+                <input type="datetime" name="time"/>
+                <br>
+                <label for="clave"> Clave</label>
+                <br>
+                <input type="password" name="password"/>
+                <br>
+                <input type="submit"/>
+                <br>
+                </fieldset>
+                <input type="button" value="Confirmar">
+                <input type="reset" value="Limpiar">
+            </form>
+        </article>
+
+        <article>
+            <fieldset>
+                <legend>Parte dos</legend>
+                <select name="" id="ciudad">
+                    <option value="1">Medellin</option>
+                    <option value="2">Bogota</option>
+                    <option value="3">Cali</option>
+                </select>
+                <br>   
+                <br>
+                <label for="">
+                    <input type="radio" name="Estado_civil" />
+                    Casado
+                </label><br>
+                <label for="">
+                    <input type="radio" name="Estado_civil" checked/>
+                    Soltero
+                </label><br>
+                <label for="">
+                    <input type="radio" name="Estado_civil" />
+                    Viudo
+                </label><br>
+                <label for="">
+                <input type="radio" name="Estado_civil"/>
+                    Union Libre
+                </label><br><br>
+
+                <label for="">
+                    <input type="checkbox" checked>Dibujar 
+                </label><br>
+                <label for="">
+                    <input type="checkbox">Tocar Guitarra
+                </label><br>
+                <label for="">
+                    <input type="checkbox">Montar Bicicleta
+                </label><br>
+                <textarea name="" id="" cols="30" rows="10"></textarea><br>
+                <label for="">Ciudades
+                    <input type="text" name="ciudad" list="lista_ciudades">
+                <datalist id="lista_ciudades" >
+                    <option value="Medellin">Medellin</option>
+                    <option value="Magdalena">Magdalena</option>
+                    <option value="Monteria">Monteria</option>
+                    <option value="Santa Fe de Bogota">Bogota</option>
+                    <option value="Cali">Cali</option>
+                </datalist>
+                </label><br>
+            </fieldset>
+        </article>
+    </section>
+    
+    
+</body>
+</html>
