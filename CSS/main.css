@@ -1,0 +1,13 @@
+body{
+    background: rgb(84, 158, 255);
+}
+#contenedor_direccion{
+    background: rgb(255, 255, 255);
+}
+.seccion{
+    border: 1px solid rgb(255, 255, 255);
+    
+}
+li{
+    text-decoration: underline white;
+}
